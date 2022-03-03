@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+    <p>The push method appends</p>
+    <p id="demo"></p>
+    <button onclick="myFunction()"> Try it</button>
+
+    <script language="Javascript">
+        var fruits = ["Banana", "orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function myFunction() {
+            fruits.push("Lemon");
+            document.getElementById("demo").innerHTML = fruits;
+
+        }
+    </script>
+
+</body>
+
+</html>

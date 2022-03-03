@@ -1,0 +1,39 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#My {
+    padding: 5%;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    background-color: #f3f0f0;
+}
+
+#My img {
+    width: 80%;
+    height: 70%;
+}
+
+#My h5 {
+    margin-top: 4%;
+}
+
+#My button {
+    background-color: azure;
+    color: black;
+    border-radius: 10%;
+    border: 1.5px solid rgb(30, 245, 11);
+}
+
+#My button:hover {
+    background-color: black;
+    color: azure;
+}
